@@ -10,7 +10,7 @@ In this project, the goal was to buy a domain, deploy Nginx on an EC2 instance, 
 
 <img width="1920" height="967" alt="image" src="https://github.com/user-attachments/assets/cbe46559-3231-471b-a351-37400cc29c6b" />
 
-## Technologies and services used for the project: 
+## Technologies used: 
 
 - **Amazon Web Services (AWS):** EC2 instance
 - **Ubuntu:** Operating system running on the EC2 instance
