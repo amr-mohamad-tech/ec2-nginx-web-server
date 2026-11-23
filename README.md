@@ -21,6 +21,8 @@ In this project, the goal was to buy a domain, deploy Nginx on an EC2 instance, 
 
 ## Architecture
 
+<br>
+
 <img width="920" height="331" alt="image" src="https://github.com/user-attachments/assets/b25785f4-5789-4d40-aaa5-821de9b92893" />
 
 
