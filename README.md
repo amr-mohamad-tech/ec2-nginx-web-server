@@ -46,13 +46,13 @@ Below are the steps I followed to complete this project.
 
 - Then I created a new key pair (.pem, RSA)  
 
-  <img width="599" height="540" alt="image" src="https://github.com/user-attachments/assets/2e0feb26-8225-4df5-9407-da5a64dfc8b1" />
+<img width="599" height="540" alt="image" src="https://github.com/user-attachments/assets/2e0feb26-8225-4df5-9407-da5a64dfc8b1" />
 
 - After creating a new key pair I configured the security group:
   - Allow SSH => My IP
   - Allow HTTP
  
-  <img width="1073" height="590" alt="image" src="https://github.com/user-attachments/assets/6c2c2315-dca9-496a-a956-e4039231c221" />
+<img width="1073" height="590" alt="image" src="https://github.com/user-attachments/assets/6c2c2315-dca9-496a-a956-e4039231c221" />
 
 Then I launched the instance. 
 
@@ -61,9 +61,9 @@ Then I launched the instance.
 - I then opened a terminal and navigated to the directy with my **.pem** file 
 - Next I secured the key with the chmod command:
 
-  'chmod 400 <name_of_pem_file>.pem'
+    `chmod 400 <name_of_pem_file>.pem`
 
 - I then connected via SSH:
 
-  ssh -i <name_of_pem_file>.pem ubuntu@ec2<ec2_public_dns>
+    `ssh -i <name_of_pem_file>.pem ubuntu@ec2<ec2_public_dns>`
   
