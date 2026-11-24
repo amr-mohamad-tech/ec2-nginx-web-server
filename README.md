@@ -110,6 +110,7 @@ The domain successfully returned an HTTP 200 OK response, confirming that Nginx 
   
 ## Step 7: Customizating my Nginx webpage
 Once the domain was working, I customized the default Nginx page. 
+
 I edited the website's HTML file: 
   `sudo vim /var/www/html/index.html`
 
