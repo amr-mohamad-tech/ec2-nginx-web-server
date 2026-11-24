@@ -100,7 +100,7 @@ At this stage, when I visited my domain, the default Nginx page appeared:
 - After configuring the DNS I used the nslookup command. If the proxy is working it should return Cloudflare's IPs instead of my EC2 instances IP:
   `nslookup amr-mohamad.co.uk`
 
-<img width="1170" height="336" alt="image" src="https://github.com/user-attachments/assets/40b430d7-0173-4616-b321-eabb62bec912" />
+<img width="707" height="280" alt="image" src="https://github.com/user-attachments/assets/c42605a9-496c-4f8b-ba39-c27f90779770" />
 
 - The `nslookup` returned Cloudflare's IP addresses rather than my EC2 instances IP, confirming the domain is proxied and my origin server is hidden.
 
