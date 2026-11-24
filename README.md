@@ -31,14 +31,14 @@ Below are the steps I followed to complete this project.
 - I navigated to the Cloudflare site to purchase a domain name
 - I searched for the domain name: amr-mohamad.co.uk and purchased it
 
-  <img width="1920" height="702" alt="image" src="https://github.com/user-attachments/assets/b4ca1381-6865-4a08-8e7d-bcc317cde796" />
+<img width="1920" height="702" alt="image" src="https://github.com/user-attachments/assets/b4ca1381-6865-4a08-8e7d-bcc317cde796" />
 
 ## Step 2: Launch an EC2 instance 
 - On the AWS site I went to EC2 and clciked Launch Instance
 - I gave my instance a name
 - I choose Ubuntu as the OS image
 
-  <img width="1918" height="733" alt="image" src="https://github.com/user-attachments/assets/13aab3e9-5a6c-4af1-9a   eacd71ca7f0c" />
+<img width="1918" height="733" alt="image" src="https://github.com/user-attachments/assets/13aab3e9-5a6c-4af1-9a   eacd71ca7f0c" />
 
 - I selected t2.micro instance type
 
@@ -48,7 +48,7 @@ Below are the steps I followed to complete this project.
 
   <img width="599" height="540" alt="image" src="https://github.com/user-attachments/assets/2e0feb26-8225-4df5-9407-da5a64dfc8b1" />
 
-- After creating a new key pair I configure the security group
+- After creating a new key pair I configured the security group:
   - Allow SSH => My IP
   - Allow HTTP
  
@@ -61,7 +61,7 @@ Then I launched the instance.
 - I then opened a terminal and navigated to the directy with my **.pem** file 
 - Next I secured the key with the chmod command:
 
-  chmod 400 <name_of_pem_file>.pem
+  'chmod 400 <name_of_pem_file>.pem'
 
 - I then connected via SSH:
 
