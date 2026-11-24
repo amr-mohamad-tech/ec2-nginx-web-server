@@ -6,7 +6,6 @@ Successfully deployed and hosted my personal website on an AWS EC2 instance usin
 
 The project provided hands-on experience in deploying and managing a website within a cloud environment, developing my understanding of AWS infrastructure, Linux server administration, web server configuration and DNS management.
 
-<br>
 
 ## Technologies used 
 
@@ -136,6 +135,8 @@ Through completing this project, I gained practical experience and developed the
 - Domain Configuration: Connecting a custom domain to an AWS EC2 public IP address.
 - Web Development: Customising and publishing a personal website using HTML and CSS.
 - Cloud Deployment: Understanding the process of deploying and hosting a publicly accessible website using cloud infrastructure.
+  
+<br>
 
 **Live website link:** http://amr-mohamad.co.uk *(The EC2 instance will only be kept running when required and may be shut down during periods of inactivity to minimize cloud expenditure)* 
 
