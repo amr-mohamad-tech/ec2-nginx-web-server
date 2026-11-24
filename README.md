@@ -72,7 +72,7 @@ Then I launched the instance.
 - I then clicked "Add record" and created an A record.
 - I used "@" for root domain & optionally a second record with "www"
 - IPv4 address: <EC2_PUBLIC_IP>
-- Proxy Status:
+- Proxy Status: Proxied (Orange cloud)
 - I saved the record and waited for the DNS to progogate.
 
 <img width="770" height="439" alt="image" src="https://github.com/user-attachments/assets/36be188d-936c-4fee-a87f-f7749fb26a00" />
