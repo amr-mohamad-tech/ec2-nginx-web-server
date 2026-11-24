@@ -35,7 +35,7 @@ Below are the steps I followed to complete this project.
 
 <img width="1074" height="680" alt="image" src="https://github.com/user-attachments/assets/90eb140c-57b3-4a55-8f50-5bf87cde3bf1" />
 
-- I selected t3.micro instance type
+  - I selected t3.micro instance type
 
 <img width="1073" height="203" alt="image" src="https://github.com/user-attachments/assets/31c90dd0-e7c0-4b90-b0e4-f844e842eb0c" />
 
