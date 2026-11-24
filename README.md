@@ -90,7 +90,7 @@ Then I launched the instance.
   `sudo systemctl enable nginx`
   `sudo systemctl start nginx`
 
-At this stage, when visiting my domain, the default Nginx page appeared: 
+At this stage, when I visited my domain, the default Nginx page appeared: 
 
 <img width="1922" height="966" alt="image" src="https://github.com/user-attachments/assets/494c9382-6a0f-4606-9adc-aeafd106c182" />
 
