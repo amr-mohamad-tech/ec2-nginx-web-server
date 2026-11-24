@@ -108,21 +108,24 @@ The domain successfully returned an HTTP 200 OK response, confirming that Nginx 
 <img width="1136" height="305" alt="image" src="https://github.com/user-attachments/assets/ca6ee56e-d20b-402b-8aa1-ff114252b0e9" />
 
   
-## Step 7: Customizating my Nginx webpage
-Once the domain was working, I customized the default Nginx page. 
+## Step 7: Customising my Nginx webpage
+Once the domain was working, I customised the default Nginx page. 
 
 I edited the website's HTML file: 
+
   `sudo vim /var/www/html/index.html`
 
 I replaced the default Nginx welcome page with my own customized version. 
 
 After saving my changes, I tested the Nginx configuration:
+
   `sudo nginx -t`
 
 I then reloaded the page: 
+
   `sudo systemctl reload nginx`
 
-After making these changed I reloaded my domain on the web and saw my customized landing page.  
+After making these changes I reloaded my website and saw my customized landing page.  
 
 <img width="1920" height="968" alt="image" src="https://github.com/user-attachments/assets/a7b993f5-2515-4833-93f2-774297cf5c3a" />
 
