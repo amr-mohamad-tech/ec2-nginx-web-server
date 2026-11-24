@@ -1,5 +1,11 @@
 # Hosting my personal Domain on AWS EC2 using Nginx and Cloudflare 
 
+## Project Summary 
+
+Successfully deployed and hosted my personal website on an AWS EC2 instance using Nginx, connecting it to a custom domain managed through Cloudflare. The project involved setting up and configuring a cloud-based Ubuntu server, establishing remote access through SSH, configuring AWS security groups, and directing the custom domain to the EC2 instance using Cloudflare DNS.
+
+The project provided hands-on experience in deploying and managing a website within a cloud environment, developing my understanding of AWS infrastructure, Linux server administration, web server configuration and DNS management.
+
 ## Project Overview
 
 In this project, the goal was to buy a domain, deploy Nginx on an EC2 instance, and make the page load over my domain.
@@ -126,6 +132,18 @@ After making these changed I reloaded my domain on the web and saw my customized
 
 <img width="1920" height="968" alt="image" src="https://github.com/user-attachments/assets/a7b993f5-2515-4833-93f2-774297cf5c3a" />
 
+## Key Takeaways
+
+Through completing this project, I gained practical experience and developed the following skills:
+
+- AWS EC2: Provisioning, launching and managing a cloud-based Linux server.
+- Linux Administration: Connecting to and managing a remote Ubuntu server using SSH.
+- Network Security: Configuring AWS EC2 security groups to manage network access.
+- Web Server Management: Installing, configuring and managing Nginx to host a website.
+- DNS Management: Creating and configuring DNS records through Cloudflare.
+- Domain Configuration: Connecting a custom domain to an AWS EC2 public IP address.
+- Web Development: Customising and publishing a personal website using HTML and CSS.
+- Cloud Deployment: Understanding the process of deploying and hosting a publicly accessible website using cloud infrastructure.
 
 
 
