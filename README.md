@@ -38,11 +38,11 @@ Below are the steps I followed to complete this project.
 - I gave my instance a name
 - I choose Ubuntu as the OS image
 
-<img width="1918" height="733" alt="image" src="https://github.com/user-attachments/assets/13aab3e9-5a6c-4af1-9a   eacd71ca7f0c" />
+<img width="1074" height="680" alt="image" src="https://github.com/user-attachments/assets/90eb140c-57b3-4a55-8f50-5bf87cde3bf1" />
 
-- I selected t2.micro instance type
+- I selected t3.micro instance type
 
-  <img width="1076" height="206" alt="image" src="https://github.com/user-attachments/  assets/583c1da7-9675-4fb5-82e4-7e169d1ceea4" />
+<img width="1073" height="203" alt="image" src="https://github.com/user-attachments/assets/31c90dd0-e7c0-4b90-b0e4-f844e842eb0c" />
 
 - Then I created a new key pair (.pem, RSA)  
 
