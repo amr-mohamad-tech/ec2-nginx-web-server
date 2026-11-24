@@ -23,8 +23,6 @@ In this project, the goal was to buy a domain, deploy Nginx on an EC2 instance, 
 
 <img width="920" height="331" alt="image" src="https://github.com/user-attachments/assets/b25785f4-5789-4d40-aaa5-821de9b92893" />
 
-## Steps Taken
-
 Below are the steps I followed to complete this project.
 
 ## Step 1: Purchasing a Domain on Cloudflare 
@@ -68,5 +66,74 @@ Then I launched the instance.
 
 - I then connected via SSH:
 
-    `ssh -i <name_of_pem_file>.pem ubuntu@ec2<ec2_public_dns>`
+    `ssh -i <name_of_pem_file>.pem ubuntu@<MY_EC2_PUBLIC_IP>`
+
+## Step 4: Linking my domain (Cloudflare => EC2)
+- On the Cloudflare site I navigated to DNS/Records
+
+<img width="261" height="915" alt="image" src="https://github.com/user-attachments/assets/2e8084f9-3d7a-4c40-84aa-cba7fca6d0b5" />
+
+- I then clicked "Add record" and created an A record.
+- I used "@" for root domain & optionally a second record with "www"
+- IPv4 address: <EC2_PUBLIC_IP>
+- Proxy Status:
+- I saved the record and waited for the DNS to progogate.
+
+<img width="772" height="437" alt="image" src="https://github.com/user-attachments/assets/b7e0c80b-931a-4cc5-9b6b-5ff251d0aaa5" />
+
+## Step 5: Installing and Configuring Nginx 
+- After connecting to the server, I updated the Ubuntu package list and installed Nginx
+  `sudo apt update`
+  `sudo apt install nginx -y` (The "y" flag simply auto answers yes to the confirmation prompt)
   
+- Enabling and starting Nginx
+  `sudo systemctl enable nginx`
+  `sudo systemctl start nginx`
+
+At this stage, when visiting my domain, the default Nginx page appeared: 
+
+<img width="1922" height="966" alt="image" src="https://github.com/user-attachments/assets/494c9382-6a0f-4606-9adc-aeafd106c182" />
+
+## Step 6: Testing the domain connectivity
+- After configuring the DNS, I tested whether my domain resolved to the EC2 instance.
+
+- I used the nslookup command:
+  `nslookup amr-mohamad.co.uk`
+
+- I also tested the HTTP response with the curl command:
+  `curl -I http://amr-mohamad.co.uk`
+
+The domain successfully returned an HTTP 200 OK response, confirming that Nginx was serving requests through my custom domain.
+
+<img width="1136" height="305" alt="image" src="https://github.com/user-attachments/assets/ca6ee56e-d20b-402b-8aa1-ff114252b0e9" />
+
+  
+## Step 7: Customizating my Nginx webpage
+Once the domain was working, I customized the default Nginx page. 
+I edited the website's HTML file: 
+  `sudo vim /var/www/html/index.html`
+
+I replaced the default Nginx welcome page. The customized home page has a personal greeting and briefly mentions the technologies used for this networking project.
+
+After saving my changes, I tested the Nginx configuration:
+  `sudo nginx -t`
+
+I then reloaded the page: 
+  `sudo systemctl reload nginx`
+
+I then reloaded my domain on the web browser and I saw my customized landing page.  
+
+<img width="1920" height="968" alt="image" src="https://github.com/user-attachments/assets/a7b993f5-2515-4833-93f2-774297cf5c3a" />
+
+
+
+
+
+
+
+
+
+
+
+
+
