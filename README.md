@@ -114,7 +114,7 @@ Once the domain was working, I customized the default Nginx page.
 I edited the website's HTML file: 
   `sudo vim /var/www/html/index.html`
 
-I replaced the default Nginx welcome page. The customized home page has a personal greeting and briefly mentions the technologies used for this networking project.
+I replaced the default Nginx welcome page with my own customized version. 
 
 After saving my changes, I tested the Nginx configuration:
   `sudo nginx -t`
@@ -122,7 +122,7 @@ After saving my changes, I tested the Nginx configuration:
 I then reloaded the page: 
   `sudo systemctl reload nginx`
 
-I then reloaded my domain on the web browser and I saw my customized landing page.  
+After making these changed I reloaded my domain on the web and saw my customized landing page.  
 
 <img width="1920" height="968" alt="image" src="https://github.com/user-attachments/assets/a7b993f5-2515-4833-93f2-774297cf5c3a" />
 
