@@ -1,4 +1,4 @@
-# Hosting my personal Domain on AWS EC2 using Nginx and Cloudflare 
+# Hosting a personal Domain on AWS EC2 with Nginx and Cloudflare 
 
 ## Project Summary 
 
