@@ -82,7 +82,7 @@ Then I launched the instance.
   
   `sudo apt update`
 
-  `sudo apt install nginx -y` (The "y" flag simply auto answers yes to the confirmation prompt)
+  `sudo apt install nginx -y` (The "-y" flag simply automatically answers yes to the confirmation prompt)
   
 - Enabling and starting Nginx
   
