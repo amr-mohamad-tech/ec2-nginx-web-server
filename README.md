@@ -85,7 +85,9 @@ Then I launched the instance.
   `sudo apt install nginx -y` (The "y" flag simply auto answers yes to the confirmation prompt)
   
 - Enabling and starting Nginx
+  
   `sudo systemctl enable nginx`
+
   `sudo systemctl start nginx`
 
 At this stage, when I visited my domain, the default Nginx page appeared: 
