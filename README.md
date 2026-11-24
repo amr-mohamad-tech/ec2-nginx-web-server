@@ -100,6 +100,10 @@ At this stage, when I visited my domain, the default Nginx page appeared:
 - I used the nslookup command:
   `nslookup amr-mohamad.co.uk`
 
+<img width="1170" height="336" alt="image" src="https://github.com/user-attachments/assets/40b430d7-0173-4616-b321-eabb62bec912" />
+
+- The `nslookup` returned Cloudflare IP addresses rather than my EC2 instance's IP, confirming the domain is proxied and my origin server is hidden.
+
 - I also tested the HTTP response with the curl command:
   `curl -I http://amr-mohamad.co.uk`
 
@@ -131,16 +135,14 @@ After saving the changes, I reloaded the site and my customised landing page app
 
 ## Key Takeaways
 
-Through completing this project, I gained practical experience and developed the following skills:
+Through this project I gained practical experience in:
 
-- AWS EC2: Provisioning, launching and managing a cloud-based Linux server.
-- Linux Administration: Connecting to and managing a remote Ubuntu server using SSH.
-- Network Security: Configuring AWS EC2 security groups to manage network access.
-- Web Server Management: Installing, configuring and managing Nginx to host a website.
-- DNS Management: Creating and configuring DNS records through Cloudflare.
-- Domain Configuration: Connecting a custom domain to an AWS EC2 public IP address.
-- Web Development: Customising and publishing a personal website using HTML and CSS.
-- Cloud Deployment: Understanding the process of deploying and hosting a publicly accessible website using cloud infrastructure.
+- **AWS EC2:** Provisioning, launching and managing a cloud-based Ubuntu server.
+- **Linux Administration:** Connecting to and managing a remote server over SSH.
+- **Network Security:** Configuring AWS security groups to control inbound access.
+- **Web Server Management:** Installing, configuring and serving a site with Nginx.
+- **DNS and Cloudflare:** Creating DNS records and proxying the domain to the EC2 instance.
+- **Web Development:** Customising and publishing a personal website with HTML and CSS.
   
 <br>
 
