@@ -58,6 +58,9 @@ Then I launched the instance.
 
 ## Step 3: SSH into EC2 instance
 - I selected my instance and clicked **Connect**
+
+<img width="292" height="246" alt="image" src="https://github.com/user-attachments/assets/7391dc13-ed55-4a1e-b1de-0f1bf0235656" />
+
 - I then opened a terminal and navigated to the directy with my **.pem** file 
 - Next I secured the key with the chmod command:
 
