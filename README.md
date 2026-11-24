@@ -21,9 +21,7 @@ The project provided hands-on experience in deploying and managing a website wit
 <img width="920" height="331" alt="image" src="https://github.com/user-attachments/assets/b25785f4-5789-4d40-aaa5-821de9b92893" />
 <br>
 
-
 Below are the steps I followed to complete this project.
-
 
 ## Step 1: Purchasing a Domain on Cloudflare 
 - I navigated to the Cloudflare site to purchase a domain name
