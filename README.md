@@ -105,7 +105,7 @@ At this stage, when I visited my domain, the default Nginx page appeared:
 
 The domain successfully returned an HTTP 200 OK response, confirming that Nginx was serving requests through my custom domain.
 
-<img width="1136" height="305" alt="image" src="https://github.com/user-attachments/assets/ca6ee56e-d20b-402b-8aa1-ff114252b0e9" />
+<img width="1920" height="412" alt="image" src="https://github.com/user-attachments/assets/4665b141-57a5-427b-8f5c-8449320c93eb" />
 
   
 ## Step 7: Customising my Nginx webpage
@@ -125,7 +125,7 @@ I then reloaded the page:
 
   `sudo systemctl reload nginx`
 
-After making these changes I reloaded my website and saw my customized landing page.  
+After saving the changes, I reloaded the site and my customised landing page appeared.
 
 <img width="1920" height="968" alt="image" src="https://github.com/user-attachments/assets/a7b993f5-2515-4833-93f2-774297cf5c3a" />
 
