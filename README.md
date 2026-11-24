@@ -79,6 +79,7 @@ Then I launched the instance.
 
 ## Step 5: Installing and Configuring Nginx 
 - After connecting to the server, I updated the Ubuntu package list and installed Nginx
+  
   `sudo apt update`
   `sudo apt install nginx -y` (The "y" flag simply auto answers yes to the confirmation prompt)
   
