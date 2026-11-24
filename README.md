@@ -76,7 +76,7 @@ Then I launched the instance.
 - Proxy Status:
 - I saved the record and waited for the DNS to progogate.
 
-<img width="772" height="437" alt="image" src="https://github.com/user-attachments/assets/b7e0c80b-931a-4cc5-9b6b-5ff251d0aaa5" />
+<img width="770" height="439" alt="image" src="https://github.com/user-attachments/assets/36be188d-936c-4fee-a87f-f7749fb26a00" />
 
 ## Step 5: Installing and Configuring Nginx 
 - After connecting to the server, I updated the Ubuntu package list and installed Nginx
