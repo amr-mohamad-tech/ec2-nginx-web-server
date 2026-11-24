@@ -6,13 +6,7 @@ Successfully deployed and hosted my personal website on an AWS EC2 instance usin
 
 The project provided hands-on experience in deploying and managing a website within a cloud environment, developing my understanding of AWS infrastructure, Linux server administration, web server configuration and DNS management.
 
-## Project Overview
-
-In this project, the goal was to buy a domain, deploy Nginx on an EC2 instance, and make the page load over my domain.
-
 <br>
-
-<img width="1920" height="967" alt="image" src="https://github.com/user-attachments/assets/cbe46559-3231-471b-a351-37400cc29c6b" />
 
 ## Technologies used 
 
